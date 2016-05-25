@@ -1,0 +1,16 @@
+.DS_Store
+Resources
+build.log
+build
+npm-debug.log
+tmp
+.map
+.project
+.settings
+Thumbs.db
+# Build Logs not needed for version control
+build/
+build.log
+# Platform dependent build files
+/i18n
+/platform

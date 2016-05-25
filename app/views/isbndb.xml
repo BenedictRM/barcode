@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container">
+		<Label id="bookDataLabel" color="white" shadowColor="#aaa" text="Search!" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"
+            top="30" width="Ti.UI.SIZE" height="Ti.UI.SIZE" />
+        <Label id="assembleString" text="" visible="false"/>
+		<Button id="lookup" onClick="getBook" title="Lookup Book!"/>
+	</Window>
+</Alloy>
