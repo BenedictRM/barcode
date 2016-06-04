@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="scanner" backgroundColor = 'white' class="container">
+		<ScrollView id = "scannerScrollView" contentWidth = "auto" contentHeight = "auto" top = "0" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="true" layout = "vertical">
+            <!-- Trigger barcode scanner -->
+            <Button id = "scanCode" onClick="getScan" title = "Scan Code from Camera" width = "150" height = "60" top = "20"/>
+        	<!-- Trigger isbn lookup (for testing only)-->
+        	<Button id = "lookup" onClick="getBook" title = "Find Book" width = "150" height = "60" top = "20" enabled = "false"/>
+        	<!-- Display data fields -->
+        	<Label id = "result" text = "Result" textAlign = "left" top = "10" left = "10" color = "black" height = "auto"/>
+        	<Label id = "scanResult" text = " " textAlign = "left" top = "10" left = "10" color = "black" height = "auto" />
+        	<Label id = "content" text = "Content Type" textAlign = "left" top = "10" left = "10" color = "black" height = "auto"/>
+        	<Label id = "scanContentType" text = " " textAlign = "left" top = "10" left = "10" color = "black" height = "auto"/>
+        	<Label id = "format" text = "Format" textAlign = "left" top = "10" left = "10" color = "black" height = "auto"/>
+        	<Label id = "scanFormat" text = " " textAlign = "left" top = "10" left = "10" color = "black" height = "auto"/>
+        	<Label id = "parsed" text = "Parsed" textAlign = "left" top = "10" left = "10" color = "black" height = "auto"/>
+        	<Label id = "scanParsed" text = " " textAlign = "left" top = "10" left = "10" color = "black" height = "auto"/>
+        </ScrollView>
+	</Window>
+</Alloy>

@@ -1,8 +1,8 @@
-#appname: barcode
-#publisher: Russell
-#url: 
-#image: appicon.png
-#appid: com.hitchhiker.barcode
-#desc: undefined
-#type: mobile
-#guid: 44436d81-f759-4ded-9bbb-0cc9cfc283e9
+#appname:barcode
+#publisher:Russell
+#url:http://russellmehring.tumblr.com/
+#image:appicon.png
+#appid:com.hitchhiker.barcode
+#desc:Barcode app that scans isbn number and connects to external API -- currenty in prototype mode
+#type:mobile
+#guid:44436d81-f759-4ded-9bbb-0cc9cfc283e9

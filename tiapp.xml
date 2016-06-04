@@ -4,8 +4,8 @@
     <name>barcode</name>
     <version>1.0</version>
     <publisher>Russell</publisher>
-    <url/>
-    <description>undefined</description>
+    <url>http://russellmehring.tumblr.com/</url>
+    <description>Barcode app that scans isbn number and connects to external API -- currenty in prototype mode</description>
     <copyright>2016 by Russell</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
