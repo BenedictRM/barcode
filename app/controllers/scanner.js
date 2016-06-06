@@ -14,25 +14,12 @@ Barcode.useLED = true;//Automatically turns on flashlight -- TODO: make this a b
 /**
  * Create a chrome for the barcode scanner.
  */
+//create a var to hold a view for later use
 var overlay = Ti.UI.createView({
     backgroundColor: 'transparent',
     top: 0, right: 0, bottom: 0, left: 0
 });
-var switchButton = Ti.UI.createButton({
-    title: Barcode.useFrontCamera ? 'Back Camera' : 'Front Camera',
-    textAlign: 'center',
-    color: '#000', backgroundColor: '#fff', style: 0,
-    font: { fontWeight: 'bold', fontSize: 16 },
-    borderColor: '#000', borderRadius: 10, borderWidth: 1,
-    opacity: 0.5,
-    width: 220, height: 30,
-    bottom: 10
-});
-switchButton.addEventListener('click', function () {
-    Barcode.useFrontCamera = !Barcode.useFrontCamera;
-    switchButton.title = Barcode.useFrontCamera ? 'Back Camera' : 'Front Camera';
-});
-overlay.add(switchButton);
+//example cancel button -- can refactor at UI time
 var cancelButton = Ti.UI.createButton({
     title: 'Cancel', textAlign: 'center',
     color: '#000', backgroundColor: '#fff', style: 0,

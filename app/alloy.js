@@ -9,6 +9,9 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
+// Make API calls to Alloy.Globals.Facebook
+Alloy.Globals.Facebook = require('facebook');
+
 
 // added during app creation. this will automatically login to
 // ACS for your application and then fire an event (see below)
